@@ -3,135 +3,115 @@
 
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Volunteer Form></title>
+  <title>Volunteer Form></title>
 
-	<!--Additional elements for browsers and robots go here-->
+  <!--Additional elements for browsers and robots go here-->
 
 </head>
 
 <body>
-	<h1>Volunteer Form</h1>
-    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
-    
+  <h1>Volunteer Form</h1>
+  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+
     <fieldset>
-        <legend>My Info</legend>
+      <legend>My Info</legend>
 
-        <p>
-            <label for ="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first_name_field">
-        </p>
+      <div>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first_name_field" placeholder="Jane" required>
+      </div>
 
-        <p>
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last_name_field">
-        </p>
+      <div>
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last_name_field" placeholder="Doe" required>
+      </div>
 
-        <p>
-            <label for="phone">Phone:</label>
-            <input type="text" id="phone" name="phone_field">
-        </p>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone_field" placeholder="(123)456-7899">
+      </div>
 
-        <p>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email_field">
-        </p>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email_field" placeholder="hello@world">
+      </div>
 
+      <div>
         <p>Gender:</p>
 
-        <input type="radio"
-                id="male"
-                name="gender_field"
-                value="Male">
+        <input type="radio" id="male" name="gender_field" value="Male">
         <label for="male">Male</label>
 
-        <input type="radio"
-                id="female"
-                name="gender_field"
-                value="Female">
+        <input type="radio" id="female" name="gender_field" value="Female">
         <label for="female">Female</label>
+      </div>
 
-        <p>
-            <label for="age">Age:</label>
+      <div>
+        <label for="age">Age:</label>
 
-            <select id="age" name="age_field">
-                <option value="under 18">under 18</option>
-                <option value="over 18">over 18</option>
-            </select>
-        </p>
+        <select id="age" name="age_field">
+          <option value="under 18">under 18</option>
+          <option value="over 18">over 18</option>
+        </select>
+      </div>
     </fieldset>
 
     <fieldset>
-    <legend>My Availability</legend>
+      <legend>My Availability</legend>
 
-    <p><strong>Days Available:</strong></p>
+      <p><strong>Days Available:</strong></p>
 
-    <input type="checkbox"
-           id="sunday"
-           name="available_field[]"
-           value="Sunday">
-    <label for="sunday">Sunday</label>
-    <br>
+      <div>
 
-    <input type="checkbox"
-           id="monday"
-           name="available_field[]"
-           value="Monday">
-    <label for="monday">Monday</label>
-    <br>
+        <input type="checkbox" id="sunday" name="available_field[]" value="Sunday">
+        <label for="sunday">Sunday</label>
+      </div>
 
-    <input type="checkbox"
-           id="tuesday"
-           name="available_field[]"
-           value="Tuesday">
-    <label for="tuesday">Tuesday</label>
-    <br>
+      <div>
+        <input type="checkbox" id="monday" name="available_field[]" value="Monday">
+        <label for="monday">Monday</label>
+      </div>
 
-    <input type="checkbox"
-           id="wednesday"
-           name="available_field[]"
-           value="Wednesday">
-    <label for="wednesday">Wednesday</label>
-    <br>
+      <div>
 
-    <input type="checkbox"
-           id="thursday"
-           name="available_field[]"
-           value="Thursday">
-    <label for="thursday">Thursday</label>
-    <br>
+        <input type="checkbox" id="tuesday" name="available_field[]" value="Tuesday">
+        <label for="tuesday">Tuesday</label>
+      </div>
 
-    <input type="checkbox"
-           id="friday"
-           name="available_field[]"
-           value="Friday">
-    <label for="friday">Friday</label>
-    <br>
+      <div>
+        <input type="checkbox" id="wednesday" name="available_field[]" value="Wednesday">
+        <label for="wednesday">Wednesday</label>
+      </div>
 
-    <input type="checkbox"
-           id="saturday"
-           name="available_field[]"
-           value="Saturday">
-    <label for="saturday">Saturday</label>
+      <div>
 
-</fieldset>
-<p>
-    <label for="comments">Comments:</label>
-    <br>
-    <textarea id="comments"
-              name="comments_field"
-              rows="5"
-              cols="30"></textarea>
-</p>
+        <input type="checkbox" id="thursday" name="available_field[]" value="Thursday">
+        <label for="thursday">Thursday</label>
+      </div>
 
-<input type="hidden"
-       name="hidden_field"
-       value="Miguel Yanez">
+      <div>
+        <input type="checkbox" id="friday" name="available_field[]" value="Friday">
+        <label for="friday">Friday</label>
+      </div>
 
-<input type="submit" value="Submit Query">
-</form>
+      <div>
+        <input type="checkbox" id="saturday" name="available_field[]" value="Saturday">
+        <label for="saturday">Saturday</label>
+      </div>
+
+      <div>
+        <label for="comments">Comments:</label>
+        <br>
+        <textarea id="comments" name="comments_field" rows="5" cols="30"></textarea>
+      </div>
+
+      <input type="hidden" name="hidden_field" value="Miguel Yanez">
+
+      <input type="submit" value="Submit Query">
+  </form>
 
 </body>
 
