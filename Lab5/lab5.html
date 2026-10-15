@@ -21,7 +21,7 @@
 
         <p>
             <label for ="first-name">:First Name:</label>
-            <input type="text" id="first-name" name=""first_name_field">
+            <input type="text" id="first-name" name="first_name_field">
         </p>
 
         <p>
@@ -62,6 +62,75 @@
             </select>
         </p>
     </fieldset>
+
+    <fieldset>
+    <legend>My Availability</legend>
+
+    <p><strong>Days Available:</strong></p>
+
+    <input type="checkbox"
+           id="sunday"
+           name="available_field[]"
+           value="Sunday">
+    <label for="sunday">Sunday</label>
+    <br>
+
+    <input type="checkbox"
+           id="monday"
+           name="available_field[]"
+           value="Monday">
+    <label for="monday">Monday</label>
+    <br>
+
+    <input type="checkbox"
+           id="tuesday"
+           name="available_field[]"
+           value="Tuesday">
+    <label for="tuesday">Tuesday</label>
+    <br>
+
+    <input type="checkbox"
+           id="wednesday"
+           name="available_field[]"
+           value="Wednesday">
+    <label for="wednesday">Wednesday</label>
+    <br>
+
+    <input type="checkbox"
+           id="thursday"
+           name="available_field[]"
+           value="Thursday">
+    <label for="thursday">Thursday</label>
+    <br>
+
+    <input type="checkbox"
+           id="friday"
+           name="available_field[]"
+           value="Friday">
+    <label for="friday">Friday</label>
+    <br>
+
+    <input type="checkbox"
+           id="saturday"
+           name="available_field[]"
+           value="Saturday">
+    <label for="saturday">Saturday</label>
+
+</fieldset>
+<p>
+    <label for="comments">Comments:</label>
+    <br>
+    <textarea id="comments"
+              name="comments_field"
+              rows="5"
+              cols="30"></textarea>
+</p>
+
+<input type="hidden"
+       name="hidden_field"
+       value="Miguel Yanez">
+
+<input type="submit" value="Submit Query">
 
 </body>
 
