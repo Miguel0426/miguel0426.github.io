@@ -106,7 +106,7 @@ Take the css rules below and properly attach them to the html so that your index
 
 {   float: right;
     border: 2px solid blue;
-  width: 300px;
+    width: 300px;
     padding: 5px;
     background-color: white;
     margin: 10px 0 10px 20px;}
