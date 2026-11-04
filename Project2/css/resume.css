@@ -1,56 +1,56 @@
 /* Navigation Bar */
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
 }
 
 nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    background-color: #555555;
+  background-color: #555555;
 }
 
 /* Style 1: Set the page background */
 body {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 /* Style 2: Create a fixed-width layout */
 Body {
-    width: 900px;
-    margin: 0 auto;
+  width: 900px;
+  margin: 0 auto;
 }
 
 /* Style 3: Style the main heading */
 h1 {
-    color: #234a75;
-    text-align: center;
+  color: #234a75;
+  text-align: center;
 }
 
 /* Style 4: Improve paragraph */
 p {
-    color: #333333;
-    font-size: 1.1rem;
-    line-height: 1.6;
+  color: #333333;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 /* Style 5: Style heading */
 h2 {
-    color: #234a75;
-    border-bottom: 2px solid #234a75;
-    padding-bottom: 0.5rem;
+  color: #234a75;
+  border-bottom: 2px solid #234a75;
+  padding-bottom: 0.5rem;
 }
