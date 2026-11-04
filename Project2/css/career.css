@@ -1,0 +1,57 @@
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555555;
+}
+
+/* Style 1: Set the page background */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Style 2: fluid layout */
+body {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style 3: Style heading */
+h1 {
+    color: #234a75;
+    text-align: center;
+}
+
+/* Style 4: paragraph improvement */
+p {
+    color: #333333;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Style 5: Style headings */
+h2 {
+    color: #234a75;
+    border-bottom: 2px solid #234a74;
+    padding-bottom: 0.5rem;
+}
