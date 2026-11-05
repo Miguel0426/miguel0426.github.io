@@ -55,3 +55,10 @@ h2 {
   border-bottom: 2px solid #234a74;
   padding-bottom: 0.5rem;
 }
+
+/* Style 6: Add background to headings */
+h2 {
+  background-color: #e3edf7;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
