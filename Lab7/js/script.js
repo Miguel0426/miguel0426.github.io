@@ -1,5 +1,5 @@
 function init(){
-//add your javascrip between these two lines of 
+//add your javascript between these two lines of 
     const button = document.getElementById("entrybutton");
 
     function myFunction() {
