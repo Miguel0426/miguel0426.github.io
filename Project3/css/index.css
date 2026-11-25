@@ -83,7 +83,7 @@ video {
     font-size: 1.1rem;
   }
   img {
-    maxwidth: 85%;
+    max-width: 85%;
   }
   video {
     width: 85%;
