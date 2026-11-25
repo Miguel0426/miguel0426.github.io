@@ -1,0 +1,69 @@
+/* Navigation Bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+/* Page Layout */
+body {
+  background-color: #f5f5f5;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #234a75;
+}
+
+p {
+  color: #333333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Google Map */
+#map {
+  width: 100%;
+  max-width: 900px;
+  height: 500px;
+  background-color: #cccccc;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+/* Questions Button */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #234a75;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333333;
+}
